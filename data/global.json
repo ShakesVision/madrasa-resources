@@ -1,0 +1,16 @@
+{
+  "sidebar": [
+    {
+      "label": "سال سوم (Year 3)",
+      "key": "year3"
+    },
+    {
+      "label": "عمومی مواد (General Resources)",
+      "key": "resource:resources.html"
+    },
+    {
+      "label": "آڈیو فولڈر (Audio files)",
+      "key": "resource:audio-list.html"
+    }
+  ]
+}

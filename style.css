@@ -1,0 +1,7 @@
+
+@import url('https://cdn.jsdelivr.net/gh/shakesvision/MehrNastaleeq/font.css');
+
+body { font-family: 'Mehr', serif; direction: rtl; text-align: right; }
+.tab-btn { transition: all .15s ease; }
+/* make sidebar scrollable but fixed height */
+#sidebar-desktop { scrollbar-gutter: stable; max-height: 100vh; }
