@@ -11,6 +11,10 @@
     {
       "label": "آڈیو فولڈر (Audio files)",
       "key": "resource:audio-list.html"
+    },
+    {
+      "label": "نوٹس",
+      "key": "resource:notes.html"
     }
   ]
 }
