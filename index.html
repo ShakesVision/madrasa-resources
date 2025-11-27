@@ -5,6 +5,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>مدرسة — Madrasa Resources</title>
+  <link rel="icon" type="image/png" href="assets/img/logo.png" />
   <link href="https://cdn.jsdelivr.net/gh/shakesvision/MehrNastaleeq/font.css" rel="stylesheet">
   <script src="https://cdn.tailwindcss.com"></script>
   <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
@@ -16,15 +17,19 @@
     <!-- Sidebar -->
     <aside class="w-72 bg-white border-l h-screen fixed right-0 top-0 hidden lg:block overflow-y-auto"
       id="sidebar-desktop">
-      <div class="p-4 border-b">
-        <h1 class="text-2xl font-semibold">مدرسة</h1>
-        <p class="text-sm text-gray-600">وسائلِ تعلیم و نوٹس</p>
+      <div class="logo-and-heading p-4 border-b text-center">
+        <img src="assets/img/logo.png" alt="madras-logo-shakeeb" class="m-auto w-100 h-100 rounded-full shadow-md"
+          width="100" height="100" />
+        <div class="p-4">
+          <h1 class="text-2xl font-semibold">مدرسة</h1>
+          <p class="text-sm text-gray-600">وسائلِ تعلیم و نوٹس</p>
+        </div>
       </div>
       <nav class="p-4 space-y-1" id="sidebar-list">
         <!-- dynamic items -->
       </nav>
       <footer>
-        <p class="p-4 text-sm text-gray-400">© 2025 از <a href="https://ur.shakeeb.in"></a> شکیب احمد</p>
+        <p class="p-4 text-sm text-gray-400">© 2025 از <a href="https://ur.shakeeb.in"></a> شکیبؔ احمد</p>
       </footer>
     </aside>
 
@@ -34,9 +39,13 @@
     <aside x-show="sidebarOpen" x-transition
       class="fixed top-0 right-0 h-full w-72 bg-white z-50 overflow-y-auto lg:hidden">
       <div class="p-4 border-b flex items-center justify-between">
-        <div>
-          <h1 class="text-xl font-semibold">مدرسة</h1>
-          <p class="text-sm text-gray-600">وسائلِ تعلیم</p>
+        <div class="sidebar-heading-with-logo flex gap-2 items-center">
+          <img src="assets/img/logo.png" alt="madras-logo-shakeeb" class="w-12 h-12 rounded-full shadow-md mr-3"
+            width="50" />
+          <div>
+            <h1 class="text-xl font-semibold">مدرسة</h1>
+            <p class="text-sm text-gray-600">وسائلِ تعلیم</p>
+          </div>
         </div>
         <button @click="sidebarOpen=false" class="px-2 py-1">✕</button>
       </div>
@@ -52,7 +61,7 @@
           <button class="lg:hidden px-3 py-2 bg-gray-100 rounded" @click="sidebarOpen = true">☰</button>
         </div>
         <div class="text-right">
-          <p class="text-sm text-gray-600"> دروس و وسائلِ مدرسہ
+          <p class="text-sm text-gray-600"> دروس و وسائلِ مدرسہ از شکیبـؔ احمد
           </p>
         </div>
       </header>

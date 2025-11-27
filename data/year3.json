@@ -7,6 +7,34 @@
     {
       "name": "ہدایۃ النحو",
       "slug": "nahw"
+    },
+    {
+      "name": "ترجمہ قرآن",
+      "slug": "tarjuma-quran"
+    },
+    {
+      "name": "مبادی الاصول",
+      "slug": "mabadi-usul"
+    },
+    {
+      "name": "معین الاصول",
+      "slug": "moin-usul"
+    },
+    {
+      "name": "اصول الشاشی",
+      "slug": "usul-shashi"
+    },
+    {
+      "name": "تسهیل البلاغه",
+      "slug": "tasheel-balagha"
+    },
+    {
+      "name": "دروس البلاغہ",
+      "slug": "dorus-balagha"
+    },
+    {
+      "name": "آسان منطق",
+      "slug": "asan-mantiq"
     }
   ]
 }
